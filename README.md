@@ -1,56 +1,77 @@
 # Opencast
-Open-source indexer for Farcaster apps and frames
 
-### What does Opencast do? 
+Opencast is a free and open-source indexer designed to empower developers by providing a flexible and powerful way to query data from Farcaster hubs and nodes.
 
-Query data from [Farcaster](https://github.com/farcasterxyz/protocol#4-hubs) hubs/nodes
+## Overview
 
-## Product Description:
+Opencast offers an alternative to closed platforms like Naynar, enabling developers to create sophisticated queries that unlock valuable insights from their Farcaster data. 
 
-###  Painpoints we are solving for
-1. Platforms like Naynar have limitations and are closed platforms
-Solution: Create queries that is not possible 
-    - "what's the best time of day to cast?"
-    - "what's my best performing cast?"
-2. Data uptime and paywall
-Solution: own your own data, don't need to trust Neynar or other hubs
+## Problem
 
-### Unique features:
-1. Client-side is interoperable and agnostic
-2. Querying data from nodes and protocol
-3. Expansive querying capabilities (this is a future version release)
+- **Limited Capabilities:** Existing platforms restrict the types of queries you can execute. Opencast breaks these barriers, allowing you to build more dynamic Frames.
+    - Example Queries:
+        - Identify optimal times for casting content
+        - Analyze the performance of your casts
 
-### Target Audience: (Who is this product designed for?)
+- **Data Dependence:** Reliance on third-party platforms creates vulnerabilities like uptime issues and potential paywalls. Opencast empowers you to own and control your data, eliminating such dependencies.
 
-Short Term: Devs operating their own hub (nodes), building a client-side needing to query data
+## Solution
 
-Long Term: Builders who no longer need to run their own hub
+Opencast delivers a unique combination of features:
 
+- **Client-Side Agnosticism:** Seamlessly integrate Opencast with your existing client-side applications, regardless of their architecture.
+- **Node and Protocol Querying:** Execute powerful queries directly against Farcaster nodes and the underlying protocol, unlocking a wider range of data.
+- **Expansive Querying (Future):** A future release will introduce even richer querying capabilities, empowering you to delve deeper into your data.
 
+## Target Audience
 
-## MVP function:
+- **Short-Term:**
+    - Developers who operate their own Farcaster hubs (nodes)
+    - Client-side developers seeking to integrate Farcaster data querying
+- **Long-Term:**
+    - Builders envisioning applications that don't require self-hosted hubs
 
-### What will users be able to do with it?
-Interact with the backend, and run custom queries. The demo we will showcase the back-end capabilities as well as some client-side examples
+## Minimum Viable Product (MVP)
 
-## Architecture:
+The MVP will allow users to interact with the Opencast backend, crafting custom queries to extract valuable data from Farcaster. A demo showcasing both backend functionality and client-side usage examples will be provided.
 
-Languages: GraphQL, Shuttle, Elysia, Bun
+## Architecture
 
-## Client-Side (App/Website):
+Opencast is built on a robust technology stack:
 
-Opencast is client-side app agnostic and can be accessed locally as a developer tool.   
+- **Backend:**
+    - GraphQL: Enables efficient and flexible data querying.
+    - Shuttle: Provides real-time communication between the backend and client-side components.
+    - Elysia: (Optional) Streamlines data fetching and manipulation.
+    - Bun: (Optional) A high-performance JavaScript runtime for a fast and efficient backend.
 
-### What will users see and how will they interact with it?
+- **Client-Side:**
+    - Opencast is agnostic to the chosen client-side application. It can be used locally as a developer tool, seamlessly integrating with various frameworks and libraries.
 
-- series of feature end-points
-- devs building an application built on querying Farcaster
+## User Interface (UI)
 
+Since Opencast is primarily a developer tool, it doesn't have a traditional user interface. Instead, it exposes a series of well-defined, programmatic endpoints that developers can leverage to build client-side applications with querying capabilities.
 
-## Toolings:
-Sentry https://sentry.io/for/error-monitoring/
-Shuttle https://socket.dev/npm/package/@farcaster/shuttle
-Neynar clone(?): https://github.com/dylsteck/litecast or [[link]](https://github.com/search?q=%22Neynar%22%20client%20OR%20clone%20OR%20sdk%20OR%20library&type=repositories)
+## Tooling
 
+- **Error Monitoring:** Sentry (https://sentry.io/resources/error-monitoring/) provides real-time insights into errors and facilitates their timely resolution.
+- **Real-time Communication:** Shuttle (https://docs.farcaster.xyz/developers/resources) enables communication between the Opencast backend and client-side application.
+- **Farcaster Client/SDK Alternatives:**
+    - Litecast (https://github.com/dylsteck/litecast)
+    - Search for relevant Farcaster client libraries on GitHub by visiting https://github.com/farcasterxyz
 
-](https://github.com/dawsbot/opencast/compare/master...sydneylai:opencast-1:patch-1)
+## Getting Started
+
+(Instructions on installation, usage, and contributing will be added in a separate document)
+
+## Contributing
+
+We welcome contributions from the community! (Information on contribution guidelines will be added in a separate document)
+
+## License
+
+Opencast is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Disclaimer
+
+This Readme.md is a work in progress. We'll continue to update it with more detailed information as development progresses.
