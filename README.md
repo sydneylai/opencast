@@ -1,4 +1,4 @@
-[# Opencast
+# Opencast
 Open-source indexer for Farcaster apps and frames
 
 ### What does Opencast do? 
