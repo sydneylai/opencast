@@ -1,4 +1,4 @@
-# Opencast
+[# Opencast
 Open-source indexer for Farcaster apps and frames
 
 ### What does Opencast do? 
@@ -53,3 +53,4 @@ Shuttle https://socket.dev/npm/package/@farcaster/shuttle
 Neynar clone(?): https://github.com/dylsteck/litecast or [[link]](https://github.com/search?q=%22Neynar%22%20client%20OR%20clone%20OR%20sdk%20OR%20library&type=repositories)
 
 
+](https://github.com/dawsbot/opencast/compare/master...sydneylai:opencast-1:patch-1)
